@@ -1,10 +1,16 @@
 /********** Template CSS **********/
 :root {
-    --primary: #42e3b5;
-    --secondary: rgb(66, 6, 6);
-    --light: #f0f6ff;
+    --primary: #774E2A;
+    --secondary: #DBCFB2;
+    --light: #DBCFB2;
     --dark: #262b47;
 }
+
+body{
+    background-color: #DBCFB2;
+}
+
+
 
 /*** Spinner ***/
 #spinner {
