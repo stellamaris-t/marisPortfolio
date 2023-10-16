@@ -295,7 +295,7 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     margin-bottom: 6rem;
-    padding: 16rem 0 0 0;
+    padding: 12rem 0 0 0;
     background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
         url(../img/bg-bottom.png),
         linear-gradient(to bottom right, var(--primary), var(--secondary));
@@ -307,6 +307,80 @@ h6,
     .hero-header {
         padding: 6rem 0 9rem 0;
     }
+}
+h3{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 50px;
+    color: #774E2A;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    /* background-color: #b08c6d ; */
+    width: 900px;
+    margin-left: 200px;
+    border-radius: 17px;
+    border-top: solid #774E2A;
+    border-bottom: solid #774E2A;
+    
+
+}
+
+.skills img{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.skills img:hover{ 
+    scale: 1.1;
+    transition: 0.6s;
+}
+
+.portfolio-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #b08c6d;
+    padding: 40px;
+    border-radius: 12px;
+}
+.each img{
+    height: 400px;
+    width: 300px;
+    border-radius: 14px;
+    margin: 20px;
+}
+.each img:hover{
+    transform:scale(1.1);
+    transition: 0.3s;
+}
+.each h4{
+    text-align: center;
+    margin-top: 10px;
+    border-top: solid;
+    padding-top: 5px;
+}
+.each p{
+    text-align: center;
+    color: #707696;
+}
+.index-body{
+    background-color: white;
+}
+.my-picture{
+    margin-top: 0px;
+    height: 100vh;
+    width: 100%;
+}
+.my-picture img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    
 }
 
 /*** Feature ***/
@@ -367,6 +441,7 @@ h6,
     background: url(../img/screenshot-frame.png) center center no-repeat;
     background-size: 253px 500px;
     z-index: 1;
+    
 }
 
 .screenshot-carousel .owl-item img {
@@ -471,7 +546,7 @@ h6,
 
 /*** Footer ***/
 .footer {
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
     padding-top: 9rem;
     background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
         url(../img/bg-top.png),
