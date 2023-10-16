@@ -1,4 +1,6 @@
 /********** Template CSS **********/
+
+  @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 :root {
     --primary: #774E2A;
     --secondary: #DBCFB2;
@@ -297,11 +299,16 @@ h6,
     margin-bottom: 6rem;
     padding: 12rem 0 0 0;
     background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
-        url(../img/bg-bottom.png),
-        linear-gradient(to bottom right, var(--primary), var(--secondary));
+    url(../img/bg-bottom.png),
+    
+    
+    linear-gradient(to bottom right, var(--primary), var(--secondary));
     background-position: left 0px top 0px, right 0px top 50%, center bottom;
     background-repeat: no-repeat;
+    
 }
+
+
 
 @media (max-width: 991.98px) {
     .hero-header {
@@ -314,32 +321,31 @@ h3{
     font-size: 50px;
     color: #774E2A;
 }
-
-.skills{
+.skills-container{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 40px;
-    /* background-color: #b08c6d ; */
-    width: 900px;
-    margin-left: 200px;
-    border-radius: 17px;
-    border-top: solid #774E2A;
-    border-bottom: solid #774E2A;
     
-
 }
-
-.skills img{
-    height: 150px;
-    width: 150px;
-    margin-top: 20px;
+.iconi{
+    border: 2px solid #cdb47b;
+    padding: 30px;
+    height: 135px;
+    width: 135px;
+    border-radius: 50%;
 }
-
-.skills img:hover{ 
-    scale: 1.1;
-    transition: 0.6s;
+.iconi i{
+    align-content: center;
 }
-
+.iconi p{
+    text-align: center;
+}
+.skill-heading{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 50px;
+    color: #b08c6d;
+    font-family: 'Salsa', cursive;
+}
 .portfolio-projects{
     display: flex;
     flex-wrap: wrap;
@@ -369,7 +375,7 @@ h3{
     color: #707696;
 }
 .index-body{
-    background-color: white;
+    background-color:white;
 }
 .my-picture{
     margin-top: 0px;
@@ -381,6 +387,16 @@ h3{
     width: 400px;
     border-radius: 50%;
     
+}
+.strong{
+    font-size: 30px;
+    color: #674324;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#ptag{
+    font-size: 20px;
 }
 
 /*** Feature ***/
