@@ -321,12 +321,16 @@ h6,
     .skills-container{
         flex-wrap: wrap;
     }
+  
    
    
 }
-@media (max-width: 555px){
-
-}
+/* @media (max-width: 555px){
+    .my-picture img{
+        height: 200px;
+        width: 200px;
+    }
+} */
 
 h3{
     text-align: center;
