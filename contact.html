@@ -113,23 +113,24 @@
                         <div class="col-lg-9">
                             <div class="wow fadeInUp" data-wow-delay="0.3s">
                                 
-                                <form>
+                                <form id="form" action="/">
                                     <div class="row g-3">
-                                        <div class="col-md-6">
-                                            <div class="form-floating">
+                                        <div class="col-md-6 input-control">
+                                            <div class="form-floating input-control">
                                                 <input
                                                     type="text"
                                                     class="form-control"
-                                                    id="name"
+                                                    id="namee"
                                                     placeholder="Your Name"
                                                 />
-                                                <label for="name"
+                                                <label for="namee"
                                                     >Your Name</label
                                                 >
                                             </div>
+                                            <div class="error"></div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="form-floating">
+                                            <div class="form-floating input-control">
                                                 <input
                                                     type="email"
                                                     class="form-control"
@@ -140,9 +141,10 @@
                                                     >Your Email</label
                                                 >
                                             </div>
+                                            <div class="error"></div>
                                         </div>
                                         <div class="col-12">
-                                            <div class="form-floating">
+                                            <div class="form-floating input-control">
                                                 <input
                                                     type="text"
                                                     class="form-control"
@@ -153,6 +155,7 @@
                                                     >Subject</label
                                                 >
                                             </div>
+                                            <div class="error"></div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-floating">
@@ -166,14 +169,13 @@
                                                     >Message</label
                                                 >
                                             </div>
+                                            <div class="error"></div>
                                         </div>
                                         <div class="col-12 text-center">
-                                            <a href="mailto: stellamaristega@gmail.com"><button
-                                                class="btn btn-primary-gradient rounded-pill py-3 px-5"
-                                                type="submit"
-                                            >
-                                                Send Message
-                                            </button></a>
+                                            <a href="mailto: stellamaristega@gmail.com"  class="btn btn-primary-gradient rounded-pill py-3 px-5"
+                                            type="submit">
+                                            Send Message
+                                        </a>
                                         </div>
                                     </div>
                                 </form>
@@ -190,18 +192,18 @@
             >
                 <div class="container py-5 px-lg-5">
                     <div class="row g-5">
-                        <div class="col-md-12 col-lg-12">
-                            <h4 class="text-white mb-4">Address</h4>
+                        <div class="col-md-12 col-lg-12 ">
+                            <h4 class="text-white mb-4 fs-3">CONTACT</h4>
                             <div class="d-flex gap-4">
-                                <p>
+                                <p class="fs-5">
                                     <i class="fa fa-map-marker-alt me-3"></i>
                                     Lagos, Nigeria
                                 </p>
-                                <p>
+                                <p class="fs-5">
                                     <i class="fa fa-phone-alt me-3"></i>+234
                                     8099988817
                                 </p>
-                                <p>
+                                <p class="fs-5">
                                     <i class="fa fa-envelope me-3"></i
                                     >stellamaristega@gmail.com
                                 </p>
@@ -210,23 +212,18 @@
                             <div class="d-flex pt-2 gap-3">
                                 <a
                                     class="btn btn-outline-light btn-social"
-                                    href=""
-                                    ><i class="fab fa-twitter"></i
+                                    href="https://github.com/stellamaris-t"
+                                    ><i class="fab fa-github fs-4"></i
                                 ></a>
                                 <a
                                     class="btn btn-outline-light btn-social"
-                                    href=""
-                                    ><i class="fab fa-facebook-f"></i
+                                    href="mailto: stellamaristega@gmail.com"
+                                    ><i class="fa fa-envelope fs-4"></i
                                 ></a>
                                 <a
                                     class="btn btn-outline-light btn-social"
-                                    href=""
-                                    ><i class="fab fa-instagram"></i
-                                ></a>
-                                <a
-                                    class="btn btn-outline-light btn-social"
-                                    href=""
-                                    ><i class="fab fa-linkedin-in"></i
+                                    href="https://www.linkedin.com/in/stellamaris-egubere-908a3728a/"
+                                    ><i class="fab fa-linkedin-in fs-5"></i
                                 ></a>
                             </div>
                         </div>
@@ -248,7 +245,7 @@
                                 <a
                                     class="border-bottom"
                                     href="https://htmlcodex.com"
-                                    >Maggy.</a
+                                    >Stellamaris.</a
                                 >
                             </div>
                             <div class="col-md-6 text-center text-md-end">
@@ -278,6 +275,7 @@
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
         <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/contact.js"></script>
     </body>
 </html>

@@ -8,6 +8,7 @@
     --dark: #262b47;
 }
 
+
 body{
     background-color: #DBCFB2;
 }
@@ -311,15 +312,28 @@ h6,
 
 
 @media (max-width: 991.98px) {
+    html,body{
+        overflow-x: hidden;
+    }
     .hero-header {
         padding: 6rem 0 9rem 0;
     }
+    .skills-container{
+        flex-wrap: wrap;
+    }
+   
 }
 h3{
     text-align: center;
     margin-bottom: 70px;
     font-size: 50px;
     color: #774E2A;
+}
+.skillarrange{
+    margin-bottom: 60px;
+}
+.aboutbody{
+    background-color: white;
 }
 .skills-container{
     display: flex;
@@ -332,6 +346,11 @@ h3{
     height: 135px;
     width: 135px;
     border-radius: 50%;
+}
+.iconi:hover{
+    scale: 1.1;
+    transition: 0.6s;
+    opacity: 0.7;
 }
 .iconi i{
     align-content: center;
@@ -376,11 +395,13 @@ h3{
 }
 .index-body{
     background-color:white;
+    
 }
 .my-picture{
     margin-top: 0px;
     height: 100vh;
     width: 100%;
+    
 }
 .my-picture img{
     height: 400px;
@@ -631,4 +652,36 @@ h3{
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
 }
