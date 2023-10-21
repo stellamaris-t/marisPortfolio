@@ -327,14 +327,15 @@ h6,
    
 }
 
-/* @media (max-width: 997px){
-    .jobs{
-        width: 800px;
-    }
-    .heading{
-        margin-bottom: 0px;
-    }
-} */
+@media (max-width: 997px){
+   .jobs{
+    margin-top: 93px;
+   }
+   .heading{
+    margin-top: 300px;
+   }
+
+}
 /* @media (max-width: 555px){
     .my-picture img{
         height: 200px;
