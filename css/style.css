@@ -1,6 +1,7 @@
 /********** Template CSS **********/
 
   @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 :root {
     --primary: #774E2A;
     --secondary: #DBCFB2;
@@ -325,6 +326,15 @@ h6,
    
    
 }
+
+/* @media (max-width: 997px){
+    .jobs{
+        width: 800px;
+    }
+    .heading{
+        margin-bottom: 0px;
+    }
+} */
 /* @media (max-width: 555px){
     .my-picture img{
         height: 200px;
@@ -423,6 +433,25 @@ h3{
     color: #674324;
     margin-left: 4px;
     margin-right: 4px;
+}
+
+.jobs{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px solid #674324;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #674324;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 40px
+    
 }
 
 #ptag{
