@@ -29,6 +29,9 @@ body{
     visibility: visible;
     opacity: 1;
 }
+#spinner .spinner-grow {
+    color: #774E2A !important;
+}
 
 /*** Heading ***/
 h1,
